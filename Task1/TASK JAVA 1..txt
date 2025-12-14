@@ -65,7 +65,7 @@ public class NumberGuessingGame {
             }
 
             if (!guessed) {
-                System.out.println("\n❌you used all attempts!");
+                System.out.println("\n you used all attempts!");
                 System.out.println("Correct number was: " + secretNumber);
             }
 
@@ -86,4 +86,5 @@ public class NumberGuessingGame {
         sc.close();
     }
 }
+
 
