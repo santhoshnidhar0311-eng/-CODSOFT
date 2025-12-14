@@ -48,9 +48,9 @@ public class NumberGuessingGame {
                
                 else if (diff <= 16) {
                     if (guess < secretNumber) {
-                        System.out.println("⬆ Low!");
+                        System.out.println(" Low!");
                     } else {
-                        System.out.println("⬇ High!");
+                        System.out.println(" High!");
                     }
                 }
 
@@ -86,3 +86,4 @@ public class NumberGuessingGame {
         sc.close();
     }
 }
+
